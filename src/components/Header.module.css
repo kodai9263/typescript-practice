@@ -1,0 +1,14 @@
+.header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 800;
+  color: white;
+  padding: 20px;
+}
+
+.headerLink {
+  color: white;
+  text-decoration: none;
+}

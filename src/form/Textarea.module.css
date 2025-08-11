@@ -1,0 +1,30 @@
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.label {
+  width: 240px;
+}
+
+.inputContainer {
+  width: 100%;
+}
+
+.textarea{
+  padding: 8px;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 8px;
+  border-width: 1px;
+  width: 100%;
+  resize: vertical;
+  color: #000;
+}
+
+.errorMessage {
+  color: rgb(185, 28, 28);
+  font-size: 14px;
+  line-height: 20px;
+}
