@@ -1,15 +1,6 @@
 import { useEffect, useState } from "react";
-import { Category } from "./Categories";
 import { PostsItem } from "./PostItem";
-
-export type Post = {
-  id: number;
-  title: string;
-  thumbnailUrl: string;
-  createdAt: string;
-  categories: Category[];
-  content: string;
-};
+import { Post } from "../types/Post";
 
 export const  Posts: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -24,11 +15,6 @@ export const  Posts: React.FC = () => {
           throw new Error("データが見つかりません。");
         }
         const date = await res.json();
-        console.log('API Response:', date);
-        console.log('Posts data:', date.posts);
-        if (date.posts && date.posts.length > 0) {
-          console.log('First post categories:', date.posts[0].categories);
-        }
         setPosts(date.posts);
       } catch (e: any) {
         setError(e.message);

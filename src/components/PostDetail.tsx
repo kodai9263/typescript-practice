@@ -3,7 +3,7 @@ import classes from "./PostDetail.module.css";
 import { useEffect, useState } from "react";
 import { Categories } from "../post/Categories";
 import { FormatDate } from "../post/FormatDate";
-import { Post } from "../post/Posts";
+import { Post } from "../types/Post";
 
 export const PostDetail: React.FC = () => {
 

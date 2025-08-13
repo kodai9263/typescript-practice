@@ -6,15 +6,14 @@ export type Category = {
 };
 
 type CategoriesProps = {
-  categories: Category[]
+  categories: string[]
 };
 
 export const Categories: React.FC<CategoriesProps> = ({ categories }) => {
-  
   return (
     <div className={classes.categoryContainer}>
       {categories.map((category, index) => (
-      <p key={index} className={classes.categoryTag}>{category.name}</p>
+        <p key={index} className={classes.categoryTag}>{category}</p>
       ))}
     </div>
   );

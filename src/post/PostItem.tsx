@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import classes from './PostItem.module.css';
-import { Post } from './Posts';
 import { FormatDate } from './FormatDate';
 import { Categories } from './Categories';
+import { Post } from '../types/Post';
 
 export const PostsItem: React.FC<{post: Post}> = ({ post }) => {
 
