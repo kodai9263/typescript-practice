@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 2.5rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.submitButton {
+  color: white;
+  font-weight: 700;
+  padding: 8px 16px;
+  background-color: rgb(31, 41, 55);
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.clearButton {
+  font-weight: 700;
+  padding: 8px 16px;
+  background-color: rgb(229, 231, 235);
+  border: rgb(229, 231, 235);
+  border-radius: 8px;
+}

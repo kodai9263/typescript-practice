@@ -1,0 +1,14 @@
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.dateCategoryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTitle {
+  font-weight: 500;
+}
